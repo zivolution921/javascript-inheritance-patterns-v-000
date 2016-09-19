@@ -429,7 +429,7 @@ First we create a new `Rectangle` and `Shape` objects with their
 respective constructors.
 
 If we try to access `rect.sides`, we get `4`. We know that `sides` is
-definied by `Shape`, so it looks like our constructor worked so far and
+defined by `Shape`, so it looks like our constructor worked so far and
 our `Rectangle` inherited the properties of `Shape`.
 
 When we try to call `width` on both objects, `rect` gives us `5`, but
@@ -661,3 +661,5 @@ object or is delegated to its prototype.
 - [Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 - [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 - [hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-inheritance-patterns'>Inheritance Patterns</a> on Learn.co and start learning to code for free.</p>
